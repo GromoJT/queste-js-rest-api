@@ -1,0 +1,18 @@
+{
+  "id": "mig_coe4qi7o1o7cr1bkcvlg",
+  "parentID": "mig_coe4q0u6fopstmtchcbg",
+  "checksum": "1:f055a2e3910920b2fa2ea2b52c4f4c87ff5ad7ddbb36dc184708523bb0e46a0b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "time_in_h",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "1"
+        },
+        "table": "quest"
+      }
+    }
+  ]
+}

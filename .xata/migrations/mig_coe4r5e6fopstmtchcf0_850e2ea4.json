@@ -1,0 +1,17 @@
+{
+  "id": "mig_coe4r5e6fopstmtchcf0",
+  "parentID": "mig_coe4qtm6fopstmtchce0",
+  "checksum": "1:850e2ea433d88ef7a0c0e12135066bf1a4531e5941d0edd42a83bfedd05901a6",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "status_name",
+          "type": "string",
+          "unique": true
+        },
+        "table": "status"
+      }
+    }
+  ]
+}

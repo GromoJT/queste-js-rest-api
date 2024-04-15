@@ -1,0 +1,12 @@
+{
+  "id": "mig_coe4n4m6fopstmtchc50",
+  "parentID": "mig_co6ki526am97d3n183ug",
+  "checksum": "1:4c38d9a67804c3d5cb7455fdc6fd9208e7f9672e5af17763009f8099df349caf",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "users"
+      }
+    }
+  ]
+}

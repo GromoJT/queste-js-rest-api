@@ -1,0 +1,18 @@
+{
+  "id": "mig_cka07pbiaqa2fd9thsqg",
+  "parentID": "mig_ck9vp1biaqa2fd9thq9g",
+  "checksum": "1:79086cc1572254e386ed0285ef593a2f5cbe66f6e00df48aaefcca2ac164d547",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "userName",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Bezimienny"
+        },
+        "table": "users"
+      }
+    }
+  ]
+}

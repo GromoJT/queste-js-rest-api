@@ -1,0 +1,16 @@
+{
+  "id": "mig_coe4q0u6fopstmtchcbg",
+  "parentID": "mig_coe4o9m6fopstmtchcag",
+  "checksum": "1:919e6dd3add641c219f57ece9359dc3a01e085948e63732b3ff0e4f23b11a3ce",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "expiration_date",
+          "type": "datetime"
+        },
+        "table": "quest"
+      }
+    }
+  ]
+}

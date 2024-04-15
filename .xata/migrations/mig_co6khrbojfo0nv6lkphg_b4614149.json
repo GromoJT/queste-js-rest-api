@@ -1,0 +1,17 @@
+{
+  "id": "mig_co6khrbojfo0nv6lkphg",
+  "parentID": "mig_co6kh7i6am97d3n183tg",
+  "checksum": "1:b4614149cfd88a967de84e6efe19890615829123a84be28d8df1c26df1008888",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "discord_username",
+          "type": "string",
+          "unique": true
+        },
+        "table": "users"
+      }
+    }
+  ]
+}

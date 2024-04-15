@@ -1,0 +1,18 @@
+{
+  "id": "mig_co6ki526am97d3n183ug",
+  "parentID": "mig_co6khrbojfo0nv6lkphg",
+  "checksum": "1:79103f7c70a7515f5e8c350f10e218dcae74521d57a9d2a617e981938138469d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "current_funds",
+          "type": "float",
+          "notNull": true,
+          "defaultValue": "0.00"
+        },
+        "table": "users"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_coe4sk66fopstmtchclg",
+  "parentID": "mig_coe4see6fopstmtchckg",
+  "checksum": "1:450711b13b4a01c0f401d108efad2094521c1eb706f513359267d829cf220132",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "veryfiedAt",
+          "type": "datetime"
+        },
+        "table": "user_has_quest"
+      }
+    }
+  ]
+}

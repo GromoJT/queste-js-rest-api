@@ -1,0 +1,18 @@
+{
+  "id": "mig_coe4o9m6fopstmtchcag",
+  "parentID": "mig_coe4o5m6fopstmtchc9g",
+  "checksum": "1:1cde360bdbc5bcac42c2f7c28224badf86578218bb49bc07e1a666ad834b67e9",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "nic"
+        },
+        "table": "quest"
+      }
+    }
+  ]
+}

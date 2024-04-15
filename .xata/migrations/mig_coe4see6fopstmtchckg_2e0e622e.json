@@ -1,0 +1,16 @@
+{
+  "id": "mig_coe4see6fopstmtchckg",
+  "parentID": "mig_coe4rv66fopstmtchcjg",
+  "checksum": "1:2e0e622eec4b108e71b4d9fb0e5017b3ce2c431448508a1998443039498cc3ee",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "returnedAt",
+          "type": "datetime"
+        },
+        "table": "user_has_quest"
+      }
+    }
+  ]
+}

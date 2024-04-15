@@ -1,0 +1,17 @@
+{
+  "id": "mig_cka08driaqa2fd9thsrg",
+  "parentID": "mig_cka07pbiaqa2fd9thsqg",
+  "checksum": "1:5c519f7d602a2b294e7f20829df229b9c7c471da912dc26d1cf846c5a5bd5e92",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "personalAPIKey",
+          "type": "string",
+          "unique": true
+        },
+        "table": "users"
+      }
+    }
+  ]
+}

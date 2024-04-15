@@ -1,0 +1,19 @@
+{
+  "id": "mig_coe4rku6fopstmtchchg",
+  "parentID": "mig_coe4rfm6fopstmtchcgg",
+  "checksum": "1:2cfde7d4ffad0dd84ef14cc20afdef4126f5fcd31f1cee811b19ca1f8a717ca1",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "status_id",
+          "type": "link",
+          "link": {
+            "table": "status"
+          }
+        },
+        "table": "user_has_quest"
+      }
+    }
+  ]
+}
