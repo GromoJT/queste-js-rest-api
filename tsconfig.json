@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
       "sourceMap": true,
-      "outDir": "build",
-      "rootDir": "src/",
+      "outDir": "dist",
+      "rootDir": "functions/",
       "allowSyntheticDefaultImports": true,
       "strict": true,
       "target": "es6",
