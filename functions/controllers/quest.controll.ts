@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { MyResponse } from "../myTypes";
-import { getXataClient,Quest, QuestRecord } from "../xata";
+import { getXataClient,Quest} from "../xata";
 import dotenv from 'dotenv';
 
 dotenv.config()

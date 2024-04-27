@@ -9,19 +9,21 @@ import {
 
 const router = Router();
 
+const auth = require("../middleware/auth")
+
 // Get all quests
-router.get('/', getAllQuestsController)
+router.get('/',[auth], getAllQuestsController)
 
 //Get selected quest
-router.get('/:id', getQuestByIdController)
+router.get('/:id',[auth], getQuestByIdController)
 
 //Create a quest
-router.post('/',createQuestController)
+router.post('/',[auth], createQuestController)
 
 //modify a quest
-router.put('/:id',updateQuestController)
+router.put('/:id',[auth], updateQuestController)
 
 //delete quest
-router.delete('/:id', deleteQuestController)
+router.delete('/:id',[auth], deleteQuestController)
 
 export default router;

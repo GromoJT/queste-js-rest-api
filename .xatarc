@@ -1,6 +1,6 @@
 {
   "databaseURL": "https://Tomasz-Jankiewicz-s-workspace-16dvpb.eu-central-1.xata.sh/db/astroApiDB_1",
   "codegen": {
-    "output": "src/xata.ts"
+    "output": "functions/xata.ts"
   }
 }

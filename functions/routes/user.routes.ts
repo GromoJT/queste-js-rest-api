@@ -8,20 +8,20 @@ import {
 } from "../controllers/user.controller";
 
 const router = Router();
-
+const auth = require("../middleware/auth")
 // Get users
-router.get('/',getAllUsersController )
+router.get('/',[auth],getAllUsersController )
 
 //Get selected user
-router.get('/:id', getUserByIdController)
+router.get('/:id',[auth], getUserByIdController)
 
 //Create a user
-router.post('/', createUserController)
+router.post('/',[auth], createUserController)
 
 //modify a user
-router.put('/:id',updateUserController)
+router.put('/:id',[auth],updateUserController)
 
 //delete user
-router.delete('/:id', deleteUserController)
+router.delete('/:id',[auth], deleteUserController)
 
 export default router;

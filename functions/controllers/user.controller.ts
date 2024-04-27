@@ -7,6 +7,7 @@ dotenv.config()
 const xata = getXataClient();
 
 
+
 // Get all users
 export const getAllUsersController = async(req:Request,res:Response<MyResponse<User[]>>) =>{
     try {
